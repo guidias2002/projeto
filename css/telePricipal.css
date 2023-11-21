@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    
+}
+
+li {
+    list-style: none;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: bold;
+    padding: 32px;
+}
+
+.custom-bg-red {
+    background-color: #CA1C2A;
+}
+
+.logoTelecall {
+    width: 200px;
+}
+
+
+.cardInfo {
+    width: 100%;
+    display: flex;
+}
+
+.mainContainer {
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.containerCard {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.cardSolution {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #3131312f;
+    border-radius: 30px;
+    padding: 14px;
+}
+
+.cardSolution img {
+    width: 100px;
+}
+
+.linkCards {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    font-size: 12px;
+    padding: 12px;
+    border-radius: 24px;
+    text-decoration: none;
+
+}
+
+.containerPlans {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionPlans {
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.containerPlans {
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cardPlans {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cardPlans img {
+    width: 600px;
+    padding: 10px 0 ;
+}
+
+.options {
+    display: block;
+}
+
+.rowOption {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rowOption img {
+    width: 50px;
+}
+
+.rowOption h3 {
+    font-size: 20px;
+}
+
+.map {
+    padding: 20px;
+}
+
+.map img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.containerWho {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.containerWho img {
+    width: 600px;
+}
+
+.infoWho h1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.infoWho p {
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sectionClient {
+    padding: 50px 20px;
+}
+
+.titleClient {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.titleClient h3 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.containerClient {
+    display: flex;
+    gap: 20px;
+}
+
+.client {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    border: 1px solid #94949475;
+    border-radius: 5px;
+}
+
+.client img {
+    width: 100px;
+    padding-bottom: 50px;
+}
+
+.feedback {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0000009c;
+}
+
+.nameClient {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.office {
+    color: rgb(37, 37, 161);
+}
+
+/* footer */
+
+.footer {
+    background-color: #31353B;
+}
+
+.logoTelecallFooter {
+    width: 200px;
+}
+
+.logoSocialMedia {
+    width: 40px;
+    color: white;
+}
+
+.containerSocialMedia {
+    display: flex;
+    gap: 20px;
+}
+
+.containerFooter {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #534f4f;
+}
+
+.listFooter {
+    padding: 30px 0;
+    width: 800px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.listFooter {
+    color: white;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: white;
+}
